@@ -38,6 +38,9 @@ img
     max-width: 100%;
 }
 
+.timeline-header {
+    background-color:#27a9e1 !important;
+}
 
 /* MENU STYLING */
 nav.main-menu
