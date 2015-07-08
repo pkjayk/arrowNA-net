@@ -13,7 +13,6 @@ Tasks:
 <code>npm install grunt-contrib-imagemin</code><br>
 <code>npm install grunt-contrib-watch</code><br>
 <code>npm install grunt-contrib-cssmin</code><br>
-<code>npm install grunt-php</code><br>
 <code>npm install grunt-contrib-newer</code><br>
 <code>npm install grunt-contrib-sass</code><br>
 
