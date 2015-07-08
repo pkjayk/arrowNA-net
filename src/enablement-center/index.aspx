@@ -18,10 +18,111 @@
     </div>
     <div class="site-content ec_body" style="margin-bottom: 90px;">
         <div class="container">
-            <p>
-                <img src="../images/ec-service-circle.png">
-            </p>
-            <div class="ec_tool-table-container">
+            <div class="ec_icon-container">
+            <div class="row">
+                <div class="col-sm-4">
+                <a href="#spd" class="ec_hashtag-link">
+                    <div class="ec_icon">
+                        <b>Solution Practive Development</b><img src="/images/ec-solutions.png">
+                        <ul>
+                            <li>Comprehensive Business Planning</li>
+                            <li>Partner BI Dashboard</li>
+                            <li>Summit Program</li>
+                            <li>EMC BPP Management</li>
+                            <li>Transformation Assessment and Planning</li>
+                        </ul>
+                    </div>
+                </a>
+                </div>
+                <div class="col-sm-4">
+                <a href="#marketing" class="ec_hashtag-link">
+                    <div class="ec_icon">
+                        <b>Marketing</b><img src="/images/ec-marketing.png">
+                        <ul>
+                            <li>Demand Generation</li>
+                            <li>Communications</li>
+                            <li>Campaign Planning and Management</li>
+                            <li>Business Intelligence</li>
+                            <li>Funding and Budget Support</li>
+                        </ul>
+                    </div>
+                </a>
+                </div>
+                <div class="col-sm-4">
+                <a href="#tech-expertise" class="ec_hashtag-link">
+                    <div class="ec_icon">
+                        <b>Technical Expertise</b><img src="/images/ec-technical.png">
+                        <ul>
+                            <li>Arrow Solutions Lab</li>
+                            <li>Configuration Support</li>
+                            <li>Solution Design & Validation</li>
+                        </ul>
+                    </div>
+                </a>
+                </div>
+            </div>
+            <div class="row" style="margin-top:20px">
+                <div class="col-sm-4">
+                <a href="#op-excellence" class="ec_hashtag-link">
+                    <div class="ec_icon">
+                        <b>Operational Excellence</b><img src="/images/ec-operational.png">
+                        <ul>
+                            <li>Quote to Order Support</li>
+                            <li>My Arrow Portal</li>
+                            <li>Pricing and Program Assistance</li>
+                            <li>International Logistic Capabilities</li>
+                            <li>EDI Ordering Capabilites</li>
+                        </ul>
+                    </div>
+                </a>
+                </div>
+                <div class="col-sm-4">
+                <a href="#finance" class="ec_hashtag-link">
+                    <div class="ec_icon">
+                        <b>Finance</b><img src="/images/ec-finance.png">
+                        <ul>
+                            <li>Flexible Finance Options</li>
+                            <li>FLEX Utility Financing</li>
+                            <li>Capital Expense Plan</li>
+                        </ul>
+                    </div>
+                </a>
+                </div>
+                <div class="col-sm-4">
+                <a href="#training" class="ec_hashtag-link">
+                    <div class="ec_icon">
+                        <b>Training</b><img src="/images/ec-training.png">
+                        <ul>
+                            <li>Arrow Academy Curriculum</li>
+                            <li>Academy Master’s Program</li>
+                            <li>Solution Selling</li>
+                            <li>Flexible Delivery Options</li>
+                            <li>Certiﬁed Trainers</li>
+                        </ul>
+                    </div>
+                </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="#pro-services" class="ec_hashtag-link">
+                    <div class="ec_icon">
+                        <b>Professional Services</b><img src="/images/ec-professional.png">
+                        <ul>
+                            <li>Integration</li>
+                            <li>Implementation</li>
+                            <li>Residency</li>
+                            <li>Value Recovery</li>
+                            <li>Partner Services Enablement</li>
+                        </ul>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-sm-8">
+                </div>
+            </div>
+            </div>
+            <div class="ec_tool-table-container" id="spd">
                 <div class="ec_tool-table-header">
                     <span style="font-weight: 600">Practice Development</span> Tools
                 </div>
@@ -81,7 +182,7 @@
                 </div>
             </div>
             <!-- OPERATIONAL TOOLS -->
-            <div class="ec_tool-table-container">
+            <div class="ec_tool-table-container" id="op-excellence">
                 <div class="ec_tool-table-header">
                     <span style="font-weight: 600">Operational</span> Tools
                 </div>
@@ -132,7 +233,7 @@
                 </div>
             </div>
             <!-- Technical Expertise -->
-            <div class="ec_tool-table-container">
+            <div class="ec_tool-table-container" id="tech-expertise">
                 <div class="ec_tool-table-header">
                     <span style="font-weight: 600">Technical</span> Expertise
                 </div>
@@ -196,7 +297,7 @@
                 </div>
             </div>
             <!-- Marketing -->
-            <div class="ec_tool-table-container">
+            <div class="ec_tool-table-container" id="marketing">
                 <div class="ec_tool-table-header">
                     <span style="font-weight: 600">Marketing</span>
                 </div>
@@ -254,7 +355,7 @@
                 </div>
             </div>
             <!-- Finance -->
-            <div class="ec_tool-table-container">
+            <div class="ec_tool-table-container" id="finance">
                 <div class="ec_tool-table-header">
                     <span style="font-weight: 600">Finance</span>
                 </div>
@@ -304,7 +405,7 @@
                 </div>
             </div>
             <!-- Training -->
-            <div class="ec_tool-table-container">
+            <div class="ec_tool-table-container" id="training">
                 <div class="ec_tool-table-header">
                     <span style="font-weight: 600">Training</span>
                 </div>
@@ -364,7 +465,7 @@
                 </div>
             </div>
             <!-- Professional Services -->
-            <div class="ec_tool-table-container">
+            <div class="ec_tool-table-container" id="pro-services">
                 <div class="ec_tool-table-header">
                     <span style="font-weight: 600">Professional</span> Services
                 </div>

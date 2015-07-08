@@ -20,34 +20,40 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-3">
-                    <a href="../arrow-solutions/converged" class="as_icon-link">
+                    <a href="../../arrow-solutions/converged" class="as_icon-link">
                         <div class="as_icon-container">
-                            <img src="../images/converged.png">
+                            <img src="../../images/converged.png">
                             <br>
                             Converged Solutions
                         </div>
                     </a>
                 </div>
                 <div class="col-sm-3">
+                    <a href="../../arrow-solutions/cloud" class="as_icon-link">
                     <div class="as_icon-container">
-                        <img src="../images/cloud.png">
+                        <img src="../../images/cloud.png">
                         <br>
                         Cloud Solutions
                     </div>
+                    </a>
                 </div>
                 <div class="col-sm-3">
+                    <a href="../../arrow-solutions/big-data" class="as_icon-link">
                     <div class="as_icon-container">
-                        <img src="../images/big-data.png">
+                        <img src="../../images/big-data.png">
                         <br>
                         Big Data Solutions
                     </div>
+                    </a>
                 </div>
                 <div class="col-sm-3">
+                    <a href="../../arrow-solutions/data-protection" class="as_icon-link">
                     <div class="as_icon-container">
-                        <img src="../images/data-protection.png">
+                        <img src="../../images/data-protection.png">
                         <br>
                         Data Protection & Trusted IT Solutions
                     </div>
+                    </a>
                 </div>
             </div>
             <hr style="color: #939597;">

@@ -5,7 +5,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
-    <title>Converged Solutions</title>
+    <title>Data Protection & Trusted IT Solutions</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="../../style/build/main.min.css" />
@@ -15,14 +15,14 @@
     <uc1:header ID="header1" runat="server" />
     <div class="page-title-block arrow-solutions-bg">
         <a href="/arrow-solutions"><span style="font-weight: 600">Arrow</span> Solutions</a>
-        / <span style="font-weight: 400; font-size: 20pt;">Converged Solutions</span>
+        / <span style="font-weight: 400; font-size: 20pt;">Data Protection & Trusted IT Solutions</span>
     </div>
     <div class="site-content" style="margin-bottom: 120px; text-align: left;">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-3">
                     <a href="../../arrow-solutions/converged" class="as_icon-link">
-                        <div class="as_icon-container active">
+                        <div class="as_icon-container">
                             <img src="../../images/converged.png">
                             <br>
                             Converged Solutions
@@ -48,8 +48,8 @@
                     </a>
                 </div>
                 <div class="col-sm-3">
-                    <a href="../../arrow-solutions/data-protection" class="as_icon-link">
-                    <div class="as_icon-container">
+                 <a href="../../arrow-solutions/data-protection" class="as_icon-link">
+                    <div class="as_icon-container active">
                         <img src="../../images/data-protection.png">
                         <br>
                         Data Protection & Trusted IT Solutions
@@ -59,7 +59,7 @@
             </div>
             <hr style="color: #939597;">
                 <div class="container-fluid" style="margin-top:40px;">
-                    <h2 class="as_solution-title" style="width:90%;margin:0 auto; margin-bottom:40px;">Defined: VDI, Private Cloud & New Application Deployment</h2>
+                    <h2 class="as_solution-title" style="width:90%;margin:0 auto; margin-bottom:40px;">Workload Defined: Backup, Recovery, Protection, Availability, Archive</h2>
 
 
                     <div class="as_overview-box">
@@ -68,22 +68,18 @@
                         </div>
                         <div class="as_overview-container">
                         <p>
-                        <b>Market Opportunity:</b> According to IDC, Worldwide Integrated Infrastructure and Platforms Revenue Increased 33.8% Year Over Year to $2.4 Billion in the Second Quarter of 2014. The market generated more than 833 petabytes of new storage capacity shipments during the quarter, which was up 63.4% compared to same period a year ago. First half results were comparable with the market value growing 35.9% compared to 1H2013, to $4.3 billion.
+                        <b>Market Opportunity:</b>
                         </p>
                         <p style="margin-top:40px">
-                        <b>EMC Converged Portfolio:</b> <a href="https://www.emc.com/converged-infrastructure/index.htm?nav=1" target="_blank">Click Here</a>
-                        <br>Product homepages: VCE, VSPEX RA, VSPEX Blue
+                        <b>EMC DPS Portfolio:</b> <a href="https://www.emc.com/data-protection/index.htm?nav=1" target="_blank">Click Here</a>
                         </p>
                         <p style="margin-top:40px">
                         <b>EMC Technology Solutions:</b> 
                         <select class="as_select" style="margin-left:15px;">
-                            <option>VBlock</option>
-                            <option>VSPEX</option>
-                            <option>VSPEX Blue</option>
-                            <option>XtremIO</option>
-                            <option>ScaleIO</option>
-                            <option>VNX</option>
-                            <option>VMAX</option>
+                            <option>Data Protection Suite</option>
+                            <option>VPLEX</option>
+                            <option>Recoverpoint</option>
+                            <option>Data Domain & Avamar</option>
                         </select>
                         </p>
                         <p style="margin-top:40px">
