@@ -1,4 +1,4 @@
-# Arrow North America EMC
+# Arrow North America
 
 Grunt Config
 
@@ -22,7 +22,9 @@ May need to <code>sudo grunt-contrib-imagemin</code> - I've had some issues w/ t
 <br>
 
 <b>To build: </b> <code>grunt build</code><br>
-<b>To run server (port 9000): </b> <code>grunt serve</code> (if you install the livereload plugin in chrome you can see any changes made in realtime by listening to localhost:9000)
+<b>To run server tasks (should be running when editing anything): </b> <code>grunt serve</code>
+<br>
+<code>Grunt Serve</code> no longer runs the server but will still be optimizing images, minifying CSS, etc...
 
 
 <b>Note:</b><br>
