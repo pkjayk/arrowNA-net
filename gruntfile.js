@@ -84,19 +84,7 @@ module.exports = function(grunt) {
                 }
             },
         },
-        aspnet: {
-            options: {
-              //Launch ASP.NET server from subfolder 
-              directory: 'src',
-         
-              //Override default URL 
-              url: 'http://localhost:9000',
-        
-         
-              // Consider the server to be "running" after an explicit delay (in milliseconds) 
-              delay: 0
-            }
-         },
+
 
 
 
@@ -109,13 +97,12 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-newer');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-aspnet-server');
     grunt.loadNpmTasks('grunt-contrib-sass');
 
 
 
 
     grunt.registerTask('build', ['sass', 'concat','uglify','cssmin','newer:imagemin']);
-    grunt.registerTask('serve', ['aspnet','watch']);
+    grunt.registerTask('serve', ['watch']);
 
 };
