@@ -9,13 +9,13 @@
                 <div class="col-sm-6" style="text-align: right;">
                     <ul class="social-icons">
                         <li>
-                            <asp:Image ID="Image1" runat="server" ImageUrl="~/images/twitter-icon-blue.png" />
+                            <a href="https://twitter.com/ArrowEMC" target="_blank"><asp:Image ID="Image1" runat="server" ImageUrl="~/images/twitter-icon-blue.png" /></a>
                         </li>
                         <li>
-                            <asp:Image ID="Image2" runat="server" ImageUrl="~/images/facebook-icon-blue.png" />
+                            <a href="https://www.facebook.com/ArrowStorageSystems" target="_blank"><asp:Image ID="Image2" runat="server" ImageUrl="~/images/facebook-icon-blue.png" /></a>
                         </li>
                         <li>
-                            <asp:Image ID="Image3" runat="server" ImageUrl="~/images/linked-in-icon.png" />
+                            <a href="https://www.linkedin.com/company/arrow-emc" target="_blank"><asp:Image ID="Image3" runat="server" ImageUrl="~/images/linked-in-icon.png" /></a>
                         </li>
                     </ul>
                 </div>

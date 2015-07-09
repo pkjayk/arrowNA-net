@@ -1,6 +1,6 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="header.ascx.cs" Inherits="ArrowNA.resources.header" %>
-<link rel="stylesheet" type="text/css" href='<%= Request.Url.GetLeftPart(UriPartial.Authority) + Request.ApplicationPath + "/style/build/main.min.css"%>' />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href='<%= Request.Url.GetLeftPart(UriPartial.Authority) + Request.ApplicationPath + "/style/build/main.min.css"%>' />
 <div class="site-header">
     <div class="container-fluid">
         <div class="row">

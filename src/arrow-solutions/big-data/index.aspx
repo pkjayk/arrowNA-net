@@ -85,6 +85,9 @@
                         <p style="margin-top: 40px">
                             <b>Sales Training:</b> <a href="#">On Demand Training</a>
                         </p>
+                        <p style="margin-top: 40px">
+                            <b>Arrow EMC Video Surveillance:</b> <a href="/assets/Arrow EMC Video Surveillance.pdf" target="_blank">Click Here</a>
+                        </p>
                     </div>
                 </div>
             </div>

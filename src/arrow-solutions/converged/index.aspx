@@ -87,6 +87,12 @@
                         <p style="margin-top:40px">
                         <b>Sales Training:</b> <a href="#">On Demand Training</a>
                         </p>
+                        <p style="margin-top: 40px">
+                            <b>Arrow VSPEX Blue Customer Experience:</b> <a href="/assets/Arrow VSPEX Customer Experience.pdf" target="_blank">Click Here</a>
+                        </p>
+                        <p style="margin-top: 40px">
+                            <b>Arrow ECS VSPEX Blue Datasheet:</b> <a href="/assets/Arrow-ECS-VSPEX-Blue.pdf" target="_blank">Click Here</a>
+                        </p>
                         </div>
                     </div>
                 </div>

@@ -86,6 +86,9 @@
                         <p style="margin-top:40px">
                         <b>Sales Training:</b> <a href="#">On Demand Training</a>
                         </p>
+                        <p style="margin-top: 40px">
+                            <b>EMC ViPR:</b> <a href="/assets/EMC-ViPR Asset.pdf" target="_blank">Click Here</a>
+                        </p>
                         </div>
                     </div>
                 </div>

@@ -19,11 +19,12 @@
                 EMC Showcase &mdash; Web Syndication Feature
                 <img src="images/double-chevron.png"></button>
             <div class="row" style="margin-top: 100px;">
-                <div class="col-md-6">
+                <div class="col-md-6" style="margin-bottom:15px">
                     <div class="event-calendar-header">
                         <span>Event Calendar</span>
                     </div>
                     <div class="event-calendar">
+                    <iframe src="https://www.google.com/calendar/embed?src=na%40arrowenablement.com&ctz=Asia/Calcutta" style="border: 0" width="100%" height="400px" frameborder="0" scrolling="no"></iframe>
                     </div>
                 </div>
                 <div class="col-md-6">

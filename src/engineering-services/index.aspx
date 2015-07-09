@@ -86,7 +86,7 @@
                             Request a Demo</button>
                     </div>
                     <div class="col-md-6" style="text-align: center">
-                        <a href="#" style="font-size: 18pt">
+                        <a href="/assets/Arrow-EMC-Solution-Labs.pdf" target="_blank" style="font-size: 18pt">
                             <img src="../images/es-pdf-icon.png">
                             Arrow Solutions Lab</a>
                     </div>
