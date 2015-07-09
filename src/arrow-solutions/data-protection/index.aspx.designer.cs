@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ArrowNA.arrow_solutions.converged {
+namespace ArrowNA.arrow_solutions.data_protection {
     
     
     public partial class index {

@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ArrowNA.arrow_solutions.converged {
+namespace ArrowNA.arrow_solutions.cloud {
     
     
     public partial class index {

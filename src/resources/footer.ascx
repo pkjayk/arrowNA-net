@@ -26,3 +26,9 @@
         &copy; 2015 Arrow Electronics, Inc. All rights reserved.
     </div>
 </div>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+    $(".menu-toggle").click(function () {
+        $(".main-menu-list").stop().slideToggle();
+    });
+</script>

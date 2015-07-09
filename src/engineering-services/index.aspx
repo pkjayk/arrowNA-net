@@ -7,8 +7,6 @@
 <head id="Head1" runat="server">
     <title>Engineering Services</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="../style/build/main.min.css" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -188,12 +186,6 @@
         </div>
     </div>
     <uc2:footer ID="footer1" runat="server" />
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript">
-        $(".menu-toggle").click(function () {
-            $(".main-menu-list").stop().slideToggle();
-        });
-</script>
     </form>
 </body>
 </html>

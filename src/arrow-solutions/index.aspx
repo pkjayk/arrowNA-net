@@ -7,8 +7,6 @@
 <head id="Head1" runat="server">
     <title>Arrow Solutions</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="../style/build/main.min.css" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -20,36 +18,36 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-3">
-                    <a href="../../arrow-solutions/converged" class="as_icon-link">
+                    <a href="../arrow-solutions/converged" class="as_icon-link">
                         <div class="as_icon-container">
-                            <img src="../../images/converged.png">
+                            <img src="../images/converged.png">
                             <br>
                             Converged Solutions
                         </div>
                     </a>
                 </div>
                 <div class="col-sm-3">
-                    <a href="../../arrow-solutions/cloud" class="as_icon-link">
+                    <a href="../arrow-solutions/cloud" class="as_icon-link">
                     <div class="as_icon-container">
-                        <img src="../../images/cloud.png">
+                        <img src="../images/cloud.png">
                         <br>
                         Cloud Solutions
                     </div>
                     </a>
                 </div>
                 <div class="col-sm-3">
-                    <a href="../../arrow-solutions/big-data" class="as_icon-link">
+                    <a href="../arrow-solutions/big-data" class="as_icon-link">
                     <div class="as_icon-container">
-                        <img src="../../images/big-data.png">
+                        <img src="../images/big-data.png">
                         <br>
                         Big Data Solutions
                     </div>
                     </a>
                 </div>
                 <div class="col-sm-3">
-                    <a href="../../arrow-solutions/data-protection" class="as_icon-link">
+                    <a href="../arrow-solutions/data-protection" class="as_icon-link">
                     <div class="as_icon-container">
-                        <img src="../../images/data-protection.png">
+                        <img src="../images/data-protection.png">
                         <br>
                         Data Protection & Trusted IT Solutions
                     </div>
@@ -86,12 +84,6 @@
         </div>
     </div>
     <uc2:footer ID="footer1" runat="server" />
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript">
-        $(".menu-toggle").click(function () {
-            $(".main-menu-list").stop().slideToggle();
-        });
-</script>
     </form>
 </body>
 </html>

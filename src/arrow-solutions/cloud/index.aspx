@@ -7,8 +7,6 @@
 <head id="Head1" runat="server">
     <title>Cloud Solutions</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="../../style/build/main.min.css" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -74,8 +72,8 @@
                         <b>EMC Cloud Portfolio:</b> <a href="https://www.emc.com/cloud/hybrid-cloud-computing/index.htm?nav=1" target="_blank">Click Here</a>
                         </p>
                         <p style="margin-top:40px">
-                        <b>EMC Technology Solutions:</b> 
-                        <select class="as_select" style="margin-left:15px;">
+                        <b style="margin-right: 15px;">EMC Technology Solutions:</b> 
+                        <select class="as_select">
                             <option>EMC Hybrid Cloud</option>
                             <option>VIPR</option>
                             <option>ECS Appliance</option>
@@ -94,12 +92,6 @@
         </div>
     </div>
     <uc2:footer ID="footer1" runat="server" />
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript">
-        $(".menu-toggle").click(function () {
-            $(".main-menu-list").stop().slideToggle();
-        });
-</script>
     </form>
 </body>
 </html>

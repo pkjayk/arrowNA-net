@@ -51,8 +51,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="arrow-academy\index.aspx" />
+    <Content Include="arrow-solutions\big-data\index.aspx" />
+    <Content Include="arrow-solutions\cloud\index.aspx" />
     <Content Include="arrow-solutions\converged\index.aspx" />
+    <Content Include="arrow-solutions\data-protection\index.aspx" />
     <Content Include="arrow-solutions\index.aspx" />
+    <Content Include="bin\ArrowNA.dll" />
+    <Content Include="bin\ArrowNA.dll.mdb" />
+    <Content Include="bin\ArrowNA.pdb" />
     <Content Include="contact\index.aspx" />
     <Content Include="enablement-center\index.aspx" />
     <Content Include="engineering-services\index.aspx" />
@@ -69,7 +75,14 @@
     <Content Include="images\Data Protection.png" />
     <Content Include="images\data-protection.png" />
     <Content Include="images\double-chevron.png" />
+    <Content Include="images\ec-finance.png" />
+    <Content Include="images\ec-marketing.png" />
+    <Content Include="images\ec-operational.png" />
+    <Content Include="images\ec-professional.png" />
     <Content Include="images\ec-service-circle.png" />
+    <Content Include="images\ec-solutions.png" />
+    <Content Include="images\ec-technical.png" />
+    <Content Include="images\ec-training.png" />
     <Content Include="images\emc-biz-partner.png" />
     <Content Include="images\es-pdf-icon.png" />
     <Content Include="images\es-vid-thumbnail.png" />
@@ -80,8 +93,12 @@
     <Content Include="images\twitter-icon-blue.png" />
     <Content Include="images\twitter-icon-white.png" />
     <Content Include="index.aspx" />
+    <Content Include="js\accordion-slide.js" />
     <Content Include="js\build\main.js" />
     <Content Include="js\build\main.min.js" />
+    <Content Include="obj\Debug\ArrowNA.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\ArrowNA.dll" />
+    <Content Include="obj\Debug\ArrowNA.pdb" />
     <Content Include="resources\footer.ascx" />
     <Content Include="resources\header.ascx" />
     <Content Include="services\index.aspx" />
@@ -105,11 +122,32 @@
     <Compile Include="arrow-academy\index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="arrow-solutions\big-data\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="arrow-solutions\big-data\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="arrow-solutions\cloud\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="arrow-solutions\cloud\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="arrow-solutions\converged\index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="arrow-solutions\converged\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="arrow-solutions\data-protection\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="arrow-solutions\data-protection\index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="arrow-solutions\index.aspx.cs">
@@ -173,8 +211,11 @@
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <None Include="style\sass.css.map" />
     <None Include="style\sass\sass.scss" />
   </ItemGroup>

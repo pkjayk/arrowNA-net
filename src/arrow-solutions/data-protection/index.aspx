@@ -7,8 +7,6 @@
 <head id="Head1" runat="server">
     <title>Data Protection & Trusted IT Solutions</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="../../style/build/main.min.css" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -31,72 +29,66 @@
                 </div>
                 <div class="col-sm-3">
                     <a href="../../arrow-solutions/cloud" class="as_icon-link">
-                    <div class="as_icon-container">
-                        <img src="../../images/cloud.png">
-                        <br>
-                        Cloud Solutions
-                    </div>
+                        <div class="as_icon-container">
+                            <img src="../../images/cloud.png">
+                            <br>
+                            Cloud Solutions
+                        </div>
                     </a>
                 </div>
                 <div class="col-sm-3">
                     <a href="../../arrow-solutions/big-data" class="as_icon-link">
-                    <div class="as_icon-container">
-                        <img src="../../images/big-data.png">
-                        <br>
-                        Big Data Solutions
-                    </div>
+                        <div class="as_icon-container">
+                            <img src="../../images/big-data.png">
+                            <br>
+                            Big Data Solutions
+                        </div>
                     </a>
                 </div>
                 <div class="col-sm-3">
-                 <a href="../../arrow-solutions/data-protection" class="as_icon-link">
-                    <div class="as_icon-container active">
-                        <img src="../../images/data-protection.png">
-                        <br>
-                        Data Protection & Trusted IT Solutions
-                    </div>
+                    <a href="../../arrow-solutions/data-protection" class="as_icon-link">
+                        <div class="as_icon-container active">
+                            <img src="../../images/data-protection.png">
+                            <br>
+                            Data Protection & Trusted IT Solutions
+                        </div>
                     </a>
                 </div>
             </div>
             <hr style="color: #939597;">
-                <div class="container-fluid" style="margin-top:40px;">
-                    <h2 class="as_solution-title" style="width:90%;margin:0 auto; margin-bottom:40px;">Workload Defined: Backup, Recovery, Protection, Availability, Archive</h2>
-
-
-                    <div class="as_overview-box">
-                        <div class="as_overview-title">
-                            Overview
-                        </div>
-                        <div class="as_overview-container">
+            <div class="container-fluid" style="margin-top: 40px;">
+                <h2 class="as_solution-title" style="width: 90%; margin: 0 auto; margin-bottom: 40px;">
+                    Workload Defined: Backup, Recovery, Protection, Availability, Archive</h2>
+                <div class="as_overview-box">
+                    <div class="as_overview-title">
+                        Overview
+                    </div>
+                    <div class="as_overview-container">
                         <p>
-                        <b>Market Opportunity:</b>
+                            <b>Market Opportunity:</b>
                         </p>
-                        <p style="margin-top:40px">
-                        <b>EMC DPS Portfolio:</b> <a href="https://www.emc.com/data-protection/index.htm?nav=1" target="_blank">Click Here</a>
+                        <p style="margin-top: 40px">
+                            <b>EMC DPS Portfolio:</b> <a href="https://www.emc.com/data-protection/index.htm?nav=1"
+                                target="_blank">Click Here</a>
                         </p>
-                        <p style="margin-top:40px">
-                        <b>EMC Technology Solutions:</b> 
-                        <select class="as_select" style="margin-left:15px;">
-                            <option>Data Protection Suite</option>
-                            <option>VPLEX</option>
-                            <option>Recoverpoint</option>
-                            <option>Data Domain & Avamar</option>
-                        </select>
+                        <p style="margin-top: 40px">
+                            <b style="margin-right: 15px;">EMC Technology Solutions:</b>
+                            <select class="as_select">
+                                <option>Data Protection Suite</option>
+                                <option>VPLEX</option>
+                                <option>Recoverpoint</option>
+                                <option>Data Domain & Avamar</option>
+                            </select>
                         </p>
-                        <p style="margin-top:40px">
-                        <b>Sales Training:</b> <a href="#">On Demand Training</a>
+                        <p style="margin-top: 40px">
+                            <b>Sales Training:</b> <a href="#">On Demand Training</a>
                         </p>
-                        </div>
                     </div>
                 </div>
+            </div>
         </div>
     </div>
     <uc2:footer ID="footer1" runat="server" />
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript">
-        $(".menu-toggle").click(function () {
-            $(".main-menu-list").stop().slideToggle();
-        });
-</script>
     </form>
 </body>
 </html>
