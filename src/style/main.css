@@ -474,10 +474,19 @@ h2.as_solution-title
 
 /* ARROW ACADEMY STYLING */
 
+.aa_body {
+    font-size:13pt;
+    font-weight:300;
+}
+
 .aa_tab-container
 {
     margin-top: 60px;
     margin-bottom: 60px;
+}
+
+.aa_tab-link:hover {
+    text-decoration:none;
 }
 
 .aa_tab
@@ -564,6 +573,11 @@ h2.as_solution-title
     min-height: 150px;
 }
 
+.aa_icon-container a {
+    color:#000;
+    text-decoration:none;
+}
+
 .aa_icon
 {
     margin-bottom: 10px;
@@ -601,6 +615,52 @@ h2.as_solution-title
     font-weight: 300;
 }
 
+.aa_solutions-roadmap-icons {
+    text-align:center;
+    margin-bottom:20px;
+}
+.aa_solutions-roadmap-icons .col-md-2 {
+    margin-top:20px;
+}
+
+.aa_solutions-roadmap-icons img {
+    margin-bottom:10px;
+}
+
+.aa_essentials-table {
+    margin-top:20px;
+    background-color:#fff;
+    color:#404041;
+    width:100%;
+    min-height:100px;
+    border:1px solid #404041;
+}
+
+.aa_essentials-table td {
+    padding:8px;
+    vertical-align: top;
+}
+
+.aa_essentials-table tr:nth-child(odd){
+    background-color:#f4f4f4;
+}
+
+.aa_essentials-table-header {
+    text-transform:uppercase;
+    background-color:#404041;
+    color:#fff;
+}
+
+@media only screen and (max-width:600px){
+    .aa_essentials-table {
+        font-size:10pt;
+    }
+}
+@media only screen and (min-width:600px) and (max-width:900px){
+    .aa_essentials-table {
+        font-size:11pt;
+    }
+}
 
 /* Engineering Services STYLING */
 
