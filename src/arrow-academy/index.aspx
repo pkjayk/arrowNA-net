@@ -141,7 +141,6 @@
         </div>
     </div>
     <uc2:footer ID="footer1" runat="server" />
-    <script type="text/javascript" src="../js/build/main.min.js"></script>
     </form>
 </body>
 </html>

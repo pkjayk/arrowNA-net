@@ -27,8 +27,4 @@
     </div>
 </div>
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-<script type="text/javascript">
-    $(".menu-toggle").click(function () {
-        $(".main-menu-list").stop().slideToggle();
-    });
-</script>
+<script type="text/javascript" src="<%= Request.Url.GetLeftPart(UriPartial.Authority) + Request.ApplicationPath + "/js/build/main.min.js"%>"></script>
