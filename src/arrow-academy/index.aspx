@@ -158,8 +158,8 @@
         </div>
         <div class="es_features-container" style="margin-top:20px;">
             <div class="container">
-            <h2>
-                <b><i>Arrow Academy for Solutions</i></b></h2>
+            <h2 style="text-align:center;text-transform:uppercase;margin-bottom:20px">
+                <b>Arrow Academy for Solutions</b></h2>
             <div style="font-size: 12pt; font-weight: 300;">
                 <div class="row aa_solutions-roadmap-icons" style="margin:0 auto;">
                         <a href="/arrow-academy/converged">
@@ -168,10 +168,12 @@
                         Converged Training Roadmap
                         </div>
                         </a>
+                        <a href="/arrow-academy/cloud">
                         <div class="col-md-2">
                         <img src="/images/Cloud.png"><br>
                         Cloud Training Roadmap
                         </div>
+                        </a>
                         <div class="col-md-2">
                         <img src="/images/big-data.png"><br>
                         Big Data Training Roadmap
@@ -185,8 +187,6 @@
                         Services Training Roadmap
                         </div>
                 </div>
-                <p style="margin-top:15px;">
-                <a href="/arrow-academy/essentials" style="color:#000;"><i>More Info</i> <span class="glyphicon glyphicon-chevron-right"></span></a>
                 </p>
             </div>
             </div>

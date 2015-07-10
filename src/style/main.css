@@ -628,6 +628,7 @@ h2.as_solution-title
 }
 
 .aa_essentials-table {
+    overflow-x:scroll;
     margin-top:20px;
     background-color:#fff;
     color:#404041;
@@ -667,6 +668,36 @@ h2.as_solution-title
 }
 
 .aa_converged-table td:nth-child(n+2){
+    text-align:center;
+}
+
+.aa_cloud-table tr:nth-child(-n+8){
+    background-color:#f4f4f4;
+}
+.aa_cloud-table tr:nth-child(n+9){
+    background-color:#fff;
+}
+
+.aa_cloud-table td {
+    border:1px solid #000;
+}
+
+.aa_big-data-table td:nth-child(n+2){
+    text-align:center;
+}
+
+.aa_big-data-table tr:nth-child(-n+6){
+    background-color:#f4f4f4;
+}
+.aa_big-data-table tr:nth-child(n+7){
+    background-color:#fff;
+}
+
+.aa_big-data-table td {
+    border:1px solid #000;
+}
+
+.aa_big-data-table td:nth-child(n+2){
     text-align:center;
 }
 
