@@ -636,6 +636,10 @@ h2.as_solution-title
     border:1px solid #404041;
 }
 
+.aa_essentials-table tr {
+    max-width:100%;
+}
+
 .aa_essentials-table td {
     padding:8px;
     vertical-align: top;
@@ -651,6 +655,21 @@ h2.as_solution-title
     color:#fff;
 }
 
+.aa_converged-table tr:nth-child(-n+10){
+    background-color:#f4f4f4;
+}
+.aa_converged-table tr:nth-child(n+11){
+    background-color:#fff;
+}
+
+.aa_converged-table td {
+    border:1px solid #000;
+}
+
+.aa_converged-table td:nth-child(n+2){
+    text-align:center;
+}
+
 @media only screen and (max-width:600px){
     .aa_essentials-table {
         font-size:10pt;
@@ -661,6 +680,16 @@ h2.as_solution-title
         font-size:11pt;
     }
 }
+
+.aa_solutions-roadmap-icons a {
+    color:#000;
+}
+
+.aa_solutions-roadmap-icons a:hover {
+    text-decoration:none;
+    color:#000;
+}
+
 
 /* Engineering Services STYLING */
 

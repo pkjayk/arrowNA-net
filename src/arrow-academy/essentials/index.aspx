@@ -5,7 +5,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Arrow Academy</title>
+    <title>Arrow Academy Essentials Training Roadmap</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -17,7 +17,7 @@
     </div>
     <div class="site-content aa_body" style="margin-bottom: 90px; text-align: left;">
         <div class="container">
-            <p>
+                        <p>
             As you move through the Arrow Solutions program towards 3rd platform readiness, partners can leverage our portfolio of training resources. This essential training will give partners a strong foundation to build a successful solution-oriented EMC and VCE business practice. 
             </p>
         <div class="aa_essentials-table">
@@ -151,6 +151,7 @@
             </table>
 
         </div>
+
         </div>
     </div>
     <uc2:footer ID="footer1" runat="server" />

@@ -162,10 +162,12 @@
                 <b><i>Arrow Academy for Solutions</i></b></h2>
             <div style="font-size: 12pt; font-weight: 300;">
                 <div class="row aa_solutions-roadmap-icons" style="margin:0 auto;">
+                        <a href="/arrow-academy/converged">
                         <div class="col-md-2 col-md-offset-1">
                         <img src="/images/Converged.png"><br>
                         Converged Training Roadmap
                         </div>
+                        </a>
                         <div class="col-md-2">
                         <img src="/images/Cloud.png"><br>
                         Cloud Training Roadmap
