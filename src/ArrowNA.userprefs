@@ -1,6 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="services/index.aspx.designer.cs">
+    <Files>
+      <File FileName="Properties/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="Global.asax" Line="1" Column="1" />
+      <File FileName="index.aspx" Line="43" Column="1" />
+      <File FileName="services/index.aspx" Line="5" Column="70" />
+      <File FileName="services/index.aspx.designer.cs" Line="49" Column="45" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
