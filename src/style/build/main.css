@@ -86,6 +86,10 @@ nav.main-menu
     text-decoration: none;
 }
 
+.button-link {
+    color:#000 !important;
+}
+
 
 /* END MENU STYLING */
 
@@ -310,6 +314,9 @@ nav.main-menu
 }
 
 @media only screen and (max-width:768px){
+    .emc-showcase-button {
+        margin-bottom:60px !important;
+    }
     .social-icons li
     {
         padding-right: 15px;
