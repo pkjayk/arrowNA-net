@@ -7,6 +7,7 @@
 <head id="Head1" runat="server">
     <title>Services</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="../images/favicon.png" type="image/x-icon" />
 </head>
 <body>
     <form id="form1" runat="server">

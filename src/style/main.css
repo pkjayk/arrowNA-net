@@ -704,7 +704,25 @@ h2.as_solution-title
     border:1px solid #000;
 }
 
-.aa_big-data-table td:nth-child(n+2){
+.aa_data-protection-table td:nth-child(n+2){
+    text-align:center;
+}
+.aa_data-protection-table td:nth-child(n+2){
+    text-align:center;
+}
+
+.aa_data-protection-table tr:nth-child(-n+4){
+    background-color:#f4f4f4;
+}
+.aa_data-protection-table tr:nth-child(n+5){
+    background-color:#fff;
+}
+
+.aa_data-protection-table td {
+    border:1px solid #000;
+}
+
+.aa_data-protection-table td:nth-child(n+2){
     text-align:center;
 }
 

@@ -6,6 +6,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Arrow Academy</title>
+        <link rel="icon" href="../images/favicon.png" type="image/x-icon" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -174,14 +176,18 @@
                         Cloud Training Roadmap
                         </div>
                         </a>
+                        <a href="../arrow-academy/big-data">
                         <div class="col-md-2">
                         <img src="/images/big-data.png"><br>
                         Big Data Training Roadmap
                         </div>
+                        </a>
+                        <a href="../arrow-academy/data-protection">
                         <div class="col-md-2">
                         <img src="/images/data-protection.png"><br>
                         DPS Training Roadmap
                         </div>
+                        </a>
                         <div class="col-md-2">
                         <img src="/images/Services.png"><br>
                         Services Training Roadmap

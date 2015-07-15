@@ -59,7 +59,43 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container" style="text-align:left">
+                        <div class="as_swiss-army" style="text-align:left">
+                        <img src="../../images/emc-vspex-box.png" class="pull-right">
+                            <h2>Converged Infrastructure Integration</h2>
+                            <p style="font-size:14pt;">Pre-Sales Consulting Services<br>
+                            EMC Specialized</p>
+                            <ul class="as_list-swiss-army">
+                                <li>Rack & Stack</li>
+                                <li>Cable Label</li>
+                                <li>Burn In</li>
+                                <li>IP Address</li>
+                                <li>Firmware Update</li>
+                                <li>Documentation</li>
+                                <li>Kitting</li>
+                                <li>Additional Custom Services Available</li>
+                            </ul>
+                        <p style="font-size:14pt;">Custom Integration Services<br>
+                        VPN Access<br>
+                        Gold Disk Software Load
+                        </p>
+                            <h2 style="margin-top:65px">Hardware Integration & Test</h2>
+                            <p style="font-size:14pt;">Efficient, fast production of computer servers:</p>
+                            <ul class="as_list-swiss-army">
+                                <li>Entry level and Mid-range</li>
+                                <li>Fully clustered enterprise-level solutions, including rack builds</li>
+                            </ul>
+                            <p style="font-size:14pt;">Converged Infrastructure Solutions<br>
+
+                            Each work-cell is networked to various Network Installation Manager (NIM) servers.<br>
+
+                            Broad array of power options<br>
+
+                            Basic services include racking, cabling, color coding, O/S load, application load, testing and diagnostics.<br>
+                            
+                            Extended Burn in Periods</p>
+
+                        </div>
         </div>
     </div>
 
