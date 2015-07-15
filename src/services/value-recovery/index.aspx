@@ -1,13 +1,12 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Value-Recovery-Services.aspx.cs"
-    Inherits="ArrowNA.services.Value_Recovery_Services" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="ArrowNA.services.index" %>
 
-<%@ Register Src="~/resources/header.ascx" TagName="header" TagPrefix="uc1" %>
-<%@ Register Src="~/resources/footer.ascx" TagName="footer" TagPrefix="uc2" %>
-<%@ Register Src="../resources/Service/Service.ascx" TagName="Service" TagPrefix="uc3" %>
+<%@ Register Src="../../resources/header.ascx" TagName="header" TagPrefix="uc1" %>
+<%@ Register Src="../../resources/footer.ascx" TagName="footer" TagPrefix="uc2" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title>Value Recovery Services </title>
+<head id="Head1" runat="server">
+    <title>Value Recovery Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
         .Recovery_tbl_header
         {
@@ -48,13 +47,56 @@
 <body>
     <form id="form1" runat="server">
     <uc1:header ID="header1" runat="server" />
-    <div>
-        <div style="margin-bottom: 40px;" class="page-title-block arrow-solutions-bg">
-            <span style="font-weight: 600">Value </span>Recovery Services
+    <div class="page-title-block arrow-solutions-bg">
+        <span style="font-weight: 600">Value</span> Recovery Services
+    </div>
+    <uc3:Service ID="Service1" runat="server" />
+    <div class="site-content services_body" style="margin-bottom: 90px;">
+    <div class="container-fluid">
+                <div class="row">
+                <div class="col-sm-3">
+                 <a href="../../services/integration" class="as_icon-link">
+                        <div id="IntegrationServices" class="as_icon-container">
+                            <img src="../../images/converged.png">
+                            <br>
+                            Integration Services
+                        </div>      
+                    </a>
+                </div>
+                <div class="col-sm-3">
+                      <a href="../../services/remote" class="as_icon-link">
+                 
+                    <div id="RemoteServices" class="as_icon-container">
+                        <img src="../../images/cloud.png">
+                        <br>
+                        Remote Services
+                    </div>
+                    </a>
+                </div>
+                <div class="col-sm-3">
+                       <a ID="ResidencyServices1" href="../../services/residency" class="as_icon-link">
+             
+                    <div id="ResidencyServices" class="as_icon-container">
+                        <img src="../../images/big-data.png">
+                        <br>
+                            Residency Services
+                    </div>
+                           </a>
+                </div>
+                <div class="col-sm-3">
+                                   <a ID="ValueRecoveryServices1" href="../../services/value-recovery" class="as_icon-link">
+        
+                    <div id="ValueRecoveryServices" class="as_icon-container active">
+                        <img src="../../images/data-protection.png">
+                        <br>
+                         Value Recovery Services
+                    </div>
+                    </a>
+                </div>
+            </div>
         </div>
-        <uc3:Service ID="Service1" runat="server" />
         <div class="container">
-            <div style="padding: 10px 0px 30px 0px; font-size: 18px">
+                        <div style="padding: 10px 0px 30px 0px; font-size: 18px">
                 You can link to this page - <a href="http://ecs.arrow.com/vrs" target="_blank">http://ecs.arrow.com/vrs
                 </a>
             </div>
@@ -72,7 +114,7 @@
                     </div>
                 </div>
                 <div class="col-md-7">
-                    <img src="../images/map.png" id="">
+                    <img src="../../images/map.png" id="">
                 </div>
                 <div>
                     <div class="Recovery_tbl_header">
@@ -147,9 +189,8 @@
             </div>
         </div>
     </div>
+
     <uc2:footer ID="footer1" runat="server" />
-    <script>        !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } } (document, "script", "twitter-wjs");
-</script>
     </form>
 </body>
 </html>

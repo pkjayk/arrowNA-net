@@ -7,12 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace ArrowNA.services
 {
-    public partial class Remote_Services : System.Web.UI.Page
+    public partial class index : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Service1.ControlName = "RemoteServices";
-
+            header1.PageName = "services";
         }
     }
 }
