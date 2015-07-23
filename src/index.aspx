@@ -21,9 +21,9 @@
                 <a href="http://arrowenablement.com/EMC/public/us/index.html" target="_blank" class="button-link"><button class="emc-showcase-button" style="margin:0 auto;">See The EMC Videos Here <img src="images/double-chevron.png"></button></a>
                 </div>
                 <div class="col-md-6">
-                <button class="emc-showcase-button" style="margin:0 auto;">
+                <a href="https://www.emc.com/auth/sp/emc-integrated-campaigns.htm" target="_blank" class="button-link"><button class="emc-showcase-button" style="margin:0 auto;">
                 EMC Showcase &mdash; Web Syndication Feature
-                <img src="images/double-chevron.png"></button> 
+                <img src="images/double-chevron.png"></button></a>
                 </div>
             </div>
             <div class="row" style="margin-top: 100px;">

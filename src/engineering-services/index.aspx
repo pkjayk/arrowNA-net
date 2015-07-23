@@ -18,7 +18,7 @@
     <div class="site-content es_body" style="margin-bottom: 90px; text-align: left;">
         <div class="container">
             <div class="es_link-container">
-                <a href="">Arrow Engineering Services</a> &mdash; <a href="">Pre-Sales Service</a>
+                <a href="http://ecs.arrow.com/engineering-services/" target="_blank">Arrow Engineering Services</a> &mdash; <a href="">Pre-Sales Service</a>
             </div>
             <p style="margin-top: 20px;">
                 At Arrow, Our engineering team strives to help our valued partners solve business
@@ -83,8 +83,8 @@
             <div class="es_request-demo">
                 <div class="row">
                     <div class="col-md-6">
-                        <button class="es_demo-button">
-                            Request a Demo</button>
+                        <a href="http://ww2.arrownacp.com/asp/emc.asp" target="_blank"><button class="es_demo-button">
+                            Request a Demo</button></a>
                     </div>
                     <div class="col-md-6" style="text-align: center">
                         <a href="/assets/Arrow-EMC-Solution-Labs.pdf" target="_blank" style="font-size: 18pt">
