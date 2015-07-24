@@ -1,10 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="ArrowNA.arrow_academy.index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="ArrowNA.arrow_academy.cloud.index" %>
 
 <%@ Register Src="../../resources/header.ascx" TagName="header" TagPrefix="uc1" %>
 <%@ Register Src="../../resources/footer.ascx" TagName="footer" TagPrefix="uc2" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<head id="Head1" runat="server">
     <title>Arrow Academy Cloud Solutions Training Roadmap</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -12,13 +12,13 @@
     <form id="form1" runat="server">
     <uc1:header ID="header1" runat="server" />
     <div class="page-title-block arrow-academy-bg">
-        <a href="/arrow-academy"><span style="font-weight: 600">Arrow</span> Academy</a>
+        <a href="../../arrow-academy"><span style="font-weight: 600">Arrow</span> Academy</a>
         / <span style="font-weight: 400; font-size: 20pt;">Cloud Solutions Training Roadmap</span>
     </div>
     <div class="site-content aa_body" style="margin-bottom: 90px; text-align: left;">
         <div class="container">
             <p>
-                <img src="/images/cloud.png" class="pull-left" style="margin-right:10px;">
+                <img src="../../images/cloud.png" class="pull-left" style="margin-right:10px;">
                 <p>
                 <b>CLOUD SOLUTIONS TRAINING ROADMAP</b><br>
                 EMC offers a market-leading Cloud program for the channel, with Private Clouds architectures built on the EMC powered VCE and VSPEX portfolio.

@@ -50,6 +50,10 @@
     <Reference Include="System.Web.ApplicationServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="arrow-academy\big-data\index.aspx" />
+    <Content Include="arrow-academy\cloud\index.aspx" />
+    <Content Include="arrow-academy\converged\index.aspx" />
+    <Content Include="arrow-academy\essentials\index.aspx" />
     <Content Include="arrow-academy\index.aspx" />
     <Content Include="arrow-solutions\big-data\index.aspx" />
     <Content Include="arrow-solutions\cloud\index.aspx" />
@@ -71,6 +75,7 @@
     <Content Include="images\big-data.png" />
     <Content Include="images\chevron-right-list.png" />
     <Content Include="images\Cloud.png" />
+    <Content Include="images\col_logo.png" />
     <Content Include="images\Converged.png" />
     <Content Include="images\Data Protection.png" />
     <Content Include="images\data-protection.png" />
@@ -84,26 +89,42 @@
     <Content Include="images\ec-technical.png" />
     <Content Include="images\ec-training.png" />
     <Content Include="images\emc-biz-partner.png" />
+    <Content Include="images\EMC-Hardware.png" />
+    <Content Include="images\emc-vspex-box.png" />
     <Content Include="images\es-pdf-icon.png" />
     <Content Include="images\es-vid-thumbnail.png" />
     <Content Include="images\facebook-icon-blue.png" />
+    <Content Include="images\favicon.png" />
     <Content Include="images\image003.png" />
     <Content Include="images\linked-in-icon.png" />
+    <Content Include="images\logo-favicon.gif" />
+    <Content Include="images\map.png" />
     <Content Include="images\Services.png" />
+    <Content Include="images\six_weeks.png" />
+    <Content Include="images\SKU1.png" />
+    <Content Include="images\SKU2.png" />
     <Content Include="images\twitter-icon-blue.png" />
     <Content Include="images\twitter-icon-white.png" />
     <Content Include="index.aspx" />
     <Content Include="js\accordion-slide.js" />
+    <Content Include="js\build\jquery-1.11.3.min.js" />
     <Content Include="js\build\main.js" />
     <Content Include="js\build\main.min.js" />
+    <Content Include="js\menu-toggle.js" />
     <Content Include="obj\Debug\ArrowNA.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\ArrowNA.dll" />
     <Content Include="obj\Debug\ArrowNA.pdb" />
     <Content Include="resources\footer.ascx" />
     <Content Include="resources\header.ascx" />
     <Content Include="services\index.aspx" />
+    <Content Include="services\integration\index.aspx" />
+    <Content Include="services\remote\index.aspx" />
+    <Content Include="services\residency\index.aspx" />
+    <Content Include="services\value-recovery\index.aspx" />
+    <Content Include="style\build\bootstrap.min.css" />
     <Content Include="style\build\main.css" />
     <Content Include="style\build\main.min.css" />
+    <Content Include="style\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="style\main.css" />
     <Content Include="style\sass.css" />
     <Content Include="Web.config" />
@@ -115,6 +136,34 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="arrow-academy\big-data\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="arrow-academy\big-data\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="arrow-academy\cloud\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="arrow-academy\cloud\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="arrow-academy\converged\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="arrow-academy\converged\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="arrow-academy\essentials\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="arrow-academy\essentials\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="arrow-academy\index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -210,12 +259,56 @@
     <Compile Include="services\index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="services\integration\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="services\integration\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="services\remote\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="services\remote\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="services\residency\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="services\residency\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="services\value-recovery\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="services\value-recovery\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="assets\A360_Brochure.pdf" />
+    <None Include="assets\Arrow Capital Solutions.pdf" />
+    <None Include="assets\Arrow EMC Video Surveillance.pdf" />
+    <None Include="assets\Arrow Insight.pdf" />
+    <None Include="assets\Arrow Remote Services_EMC.pdf" />
+    <None Include="assets\Arrow Tech Refresh Data Sheet.pdf" />
+    <None Include="assets\Arrow VSPEX Customer Experience.pdf" />
+    <None Include="assets\Arrow-ECS-VSPEX-Blue.pdf" />
+    <None Include="assets\Arrow-EMC-Solution-Labs.pdf" />
+    <None Include="assets\EMC Education.pdf" />
+    <None Include="assets\EMC-ViPR Asset.pdf" />
+    <None Include="assets\Flex Pricing Solutions.pdf" />
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="style\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="style\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="style\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="style\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="style\sass.css.map" />
     <None Include="style\sass\sass.scss" />
   </ItemGroup>

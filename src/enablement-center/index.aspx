@@ -7,7 +7,6 @@
 <head id="Head1" runat="server">
     <title>Enablement Center</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="../images/favicon.png" type="image/x-icon" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -303,7 +302,7 @@
                 <div class="ec_tool-table-row ec_alt-color">
                     <div class="row">
                         <div class="col-sm-6 ec_tool-title">
-                            <a href="/assets/A360_Brochure.pdf" target="_blank">Opportunity Development</a> 
+                            <a href="../assets/A360_Brochure.pdf" target="_blank">Opportunity Development</a> 
                         </div>
                         <div class="col-sm-6">
                             Arrow 360 is an internal team focused on telemarketing, lead qualification and opportunity
@@ -333,7 +332,7 @@
                     <div class="row">
                         <div class="col-sm-6 ec_tool-title">
                             <a href="http://ecs.arrow.com/insight_bi/" target="_blank">Arrow Insight</a><br>
-                            <small><i><a href="/assets/Arrow Insight.pdf" target="_blank">(Additional Info)</a></i></small>                          
+                            <small><i><a href="../assets/Arrow Insight.pdf" target="_blank">(Additional Info)</a></i></small>                          
                         </div>
                         <div class="col-sm-6">
                             Develop custom campaigns by leveraging our business intelligence tool to identify
@@ -346,7 +345,7 @@
                         <div class="col-sm-6 ec_tool-title">
                             <a href="http://ecs.arrow.com/marketing-2/" target="_blank">Campaign Planning and Management
                                 Services</a><br>
-                            <small><i><a href="/assets/Arrow Tech Refresh Data Sheet.pdf" target="_blank">(Arrow Tech Refresh)</a></i></small>
+                            <small><i><a href="../assets/Arrow Tech Refresh Data Sheet.pdf" target="_blank">(Arrow Tech Refresh)</a></i></small>
                         </div>
                         <div class="col-sm-6">
                             Dedicated field resources to help you plan according to your business goals and
@@ -375,7 +374,7 @@
                     <div class="row">
                         <div class="col-sm-6 ec_tool-title">
                             Finance Options<br>
-                            <small><i><a href="/assets/Arrow Capital Solutions.pdf" target="_blank">(Arrow Capital Solutions)</a></i></small>
+                            <small><i><a href="../assets/Arrow Capital Solutions.pdf" target="_blank">(Arrow Capital Solutions)</a></i></small>
                         </div>
                         <div class="col-sm-6">
                             Whether is leasing, escrow, extended terms or flooring, Arrow's Finance team can
@@ -386,7 +385,7 @@
                 <div class="ec_tool-table-row ec_alt-color">
                     <div class="row">
                         <div class="col-sm-6 ec_tool-title">
-                            <a href="/assets/Flex Pricing Solutions.pdf" target="_blank">Flex Utility Financing</a>
+                            <a href="../assets/Flex Pricing Solutions.pdf" target="_blank">Flex Utility Financing</a>
                         </div>
                         <div class="col-sm-6">
                             F l e xPricing designed specifically for the channel, allowing customers to pay

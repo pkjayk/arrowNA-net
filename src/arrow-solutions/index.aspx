@@ -6,7 +6,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
     <title>Arrow Solutions</title>
-    <link rel="icon" href="../images/favicon.png" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>

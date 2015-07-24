@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace ArrowNA.services
+namespace ArrowNA.services.value_recovery
 {
     public partial class index : System.Web.UI.Page
     {

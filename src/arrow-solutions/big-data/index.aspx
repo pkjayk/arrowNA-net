@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="ArrowNA.arrow_solutions.converged.index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="ArrowNA.arrow_solutions.big_data.index" %>
 
 <%@ Register Src="../../resources/header.ascx" TagName="header" TagPrefix="uc1" %>
 <%@ Register Src="../../resources/footer.ascx" TagName="footer" TagPrefix="uc2" %>
@@ -12,7 +12,7 @@
     <form id="form1" runat="server">
     <uc1:header ID="header1" runat="server" />
     <div class="page-title-block arrow-solutions-bg">
-        <a href="/arrow-solutions"><span style="font-weight: 600">Arrow</span> Solutions</a>
+        <a href="../../arrow-solutions"><span style="font-weight: 600">Arrow</span> Solutions</a>
         / <span style="font-weight: 400; font-size: 20pt;">Big Data Solutions</span>
     </div>
     <div class="site-content" style="margin-bottom: 120px; text-align: left;">
@@ -86,7 +86,8 @@
                             <b>Sales Training:</b> <a href="#">On Demand Training</a>
                         </p>
                         <p style="margin-top: 40px">
-                            <b>Arrow EMC Video Surveillance:</b> <a href="/assets/Arrow EMC Video Surveillance.pdf" target="_blank">Click Here</a>
+                            <b>Arrow EMC Video Surveillance:</b> <a href="../../assets/Arrow EMC Video Surveillance.pdf"
+                                target="_blank">Click Here</a>
                         </p>
                     </div>
                 </div>

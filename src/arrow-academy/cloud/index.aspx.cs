@@ -5,13 +5,14 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace ArrowNA.arrow_academy
+namespace ArrowNA.arrow_academy.cloud
 {
     public partial class index : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
             header1.PageName = "arrow-academy";
+            
         }
     }
 }

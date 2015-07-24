@@ -4,10 +4,8 @@
 <%@ Register Src="../resources/footer.ascx" TagName="footer" TagPrefix="uc2" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<head id="Head1" runat="server">
     <title>Arrow Academy</title>
-        <link rel="icon" href="../images/favicon.png" type="image/x-icon" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -40,7 +38,7 @@
             <div class="aa_tab-container">
                 <div class="row">
                     <div class="col-md-4">
-                        <a href="/arrow-academy/essentials" class="aa_tab-link">
+                        <a href="../arrow-academy/essentials/" class="aa_tab-link">
                         <div class="aa_tab">
                             <div class="aa_tab-header">
                                 Essentials
@@ -111,7 +109,7 @@
             <div class="aa_icon-container">
                 <div class="row">
                     <div class="col-md-4">
-                    <a href="/assets/EMC Education.pdf">
+                    <a href="../assets/EMC Education.pdf" target="_blank">
                         <div class="aa_icon">
                             <div class="aa_icon-img">
                                 <img src="../images/aa-preview.png">
@@ -154,7 +152,7 @@
                     and VCE business practice.
                 </p>
                 <p>
-                <a href="/arrow-academy/essentials">More Info <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <a href="../arrow-academy/essentials">More Info <span class="glyphicon glyphicon-chevron-right"></span></a>
                 </p>
             </div>
         </div>
@@ -164,32 +162,30 @@
                 <b>Arrow Academy for Solutions</b></h2>
             <div style="font-size: 12pt; font-weight: 300;">
                 <div class="row aa_solutions-roadmap-icons" style="margin:0 auto;">
-                        <a href="/arrow-academy/converged">
+                        <a href="../arrow-academy/converged">
                         <div class="col-md-2 col-md-offset-1">
-                        <img src="/images/Converged.png"><br>
+                        <img src="../images/Converged.png"><br>
                         Converged Training Roadmap
                         </div>
                         </a>
-                        <a href="/arrow-academy/cloud">
+                        <a href="../arrow-academy/cloud">
                         <div class="col-md-2">
-                        <img src="/images/Cloud.png"><br>
+                        <img src="../images/Cloud.png"><br>
                         Cloud Training Roadmap
                         </div>
                         </a>
                         <a href="../arrow-academy/big-data">
                         <div class="col-md-2">
-                        <img src="/images/big-data.png"><br>
-                        Big Data Training Roadmap
+                        <img src="../images/big-data.png"><br>
+                        Big Data Training Roadmap                      
                         </div>
-                        </a>
-                        <a href="../arrow-academy/data-protection">
+                         </a>
                         <div class="col-md-2">
-                        <img src="/images/data-protection.png"><br>
+                        <img src="../images/data-protection.png"><br>
                         DPS Training Roadmap
                         </div>
-                        </a>
                         <div class="col-md-2">
-                        <img src="/images/Services.png"><br>
+                        <img src="../images/Services.png"><br>
                         Services Training Roadmap
                         </div>
                 </div>

@@ -15,52 +15,49 @@
     <div class="page-title-block arrow-solutions-bg">
         <span style="font-weight: 600">Services</span> Solutions
     </div>
-    
-    <div class="site-content services_body" style="margin-bottom: 90px;">
-    <div class="container-fluid">
-                <div class="row">
+    <div class="site-content" style="margin-bottom: 90px;">
+        <div class="container-fluid">
+            <div class="row">
                 <div class="col-sm-3">
-                 <a href="../services/integration" class="as_icon-link">
-                        <div id="IntegrationServices" class="as_icon-container">
+                    <a href="../services/integration" class="as_icon-link">
+                        <div class="as_icon-container">
                             <img src="../images/converged.png">
                             <br>
                             Integration Services
-                        </div>      
+                        </div>
                     </a>
                 </div>
                 <div class="col-sm-3">
-                      <a href="../services/remote" class="as_icon-link">
-                 
-                    <div id="RemoteServices" class="as_icon-container">
-                        <img src="../images/cloud.png">
-                        <br>
-                        Remote Services
-                    </div>
+                    <a href="../services/remote" class="as_icon-link">
+                        <div class="as_icon-container">
+                            <img src="../images/cloud.png">
+                            <br>
+                            Remote Services
+                        </div>
                     </a>
                 </div>
                 <div class="col-sm-3">
-                       <a ID="ResidencyServices1" href="../services/residency" class="as_icon-link">
-             
-                    <div id="ResidencyServices" class="as_icon-container">
-                        <img src="../images/big-data.png">
-                        <br>
+                    <a href="../services/residency" class="as_icon-link">
+                        <div class="as_icon-container">
+                            <img src="../images/big-data.png">
+                            <br>
                             Residency Services
-                    </div>
-                           </a>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-sm-3">
-                                   <a ID="ValueRecoveryServices1" href="../services/value-recovery" class="as_icon-link">
-        
-                    <div id="ValueRecoveryServices" class="as_icon-container">
-                        <img src="../images/data-protection.png">
-                        <br>
-                         Value Recovery Services
-                    </div>
+                    <a href="../services/value-recovery" class="as_icon-link">
+                        <div class="as_icon-container">
+                            <img src="../images/data-protection.png">
+                            <br>
+                            Value Recovery Services
+                        </div>
                     </a>
                 </div>
             </div>
-        </div>
-        <div class="container">
+            <hr style="color: #939597;">
+            <div class="container">
+            </div>
         </div>
     </div>
     <uc2:footer ID="footer1" runat="server" />

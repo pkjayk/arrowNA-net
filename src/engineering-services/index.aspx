@@ -7,7 +7,6 @@
 <head id="Head1" runat="server">
     <title>Engineering Services</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="../images/favicon.png" type="image/x-icon" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -18,7 +17,8 @@
     <div class="site-content es_body" style="margin-bottom: 90px; text-align: left;">
         <div class="container">
             <div class="es_link-container">
-                <a href="">Arrow Engineering Services</a> &mdash; <a href="">Pre-Sales Service</a>
+                <a href="http://ecs.arrow.com/engineering-services/">Arrow Engineering Services</a>
+                &mdash; <a href="http://ecs.arrow.com/pre-sales/">Pre-Sales Service</a>
             </div>
             <p style="margin-top: 20px;">
                 At Arrow, Our engineering team strives to help our valued partners solve business
@@ -29,7 +29,7 @@
                 <div class="row">
                     <div class="col-md-7">
                         <h2 class="es_color" style="font-weight: 500">
-                            <i>Arrow Solutions Lab</i></h2>
+                            <a href="http://ecs.arrow.com/solutions-lab/" target="_blank"><i>Arrow Solutions Lab</i></a></h2>
                         <b>Our Mission:</b> Our goal is to help our valued partners solve business challenges
                         by exploring new technologies, that deliver better business outcomes.
                         <br>
@@ -83,11 +83,11 @@
             <div class="es_request-demo">
                 <div class="row">
                     <div class="col-md-6">
-                        <button class="es_demo-button">
+                        <button class="es_demo-button" onclick="window.open('http://ww2.arrownacp.com/asp/emc.asp', '_blank');">
                             Request a Demo</button>
                     </div>
                     <div class="col-md-6" style="text-align: center">
-                        <a href="/assets/Arrow-EMC-Solution-Labs.pdf" target="_blank" style="font-size: 18pt">
+                        <a href="../assets/Arrow-EMC-Solution-Labs.pdf" target="_blank" style="font-size: 18pt">
                             <img src="../images/es-pdf-icon.png">
                             Arrow Solutions Lab</a>
                     </div>
@@ -158,29 +158,29 @@
                     <div class="col-md-12">
                         <b>Adam Catbagan</b><br>
                         Manager, Technical Services<br>
-                        <span class="light-blue">acatbagan@arrow.com</span>
+                        <a class="light-blue" href="mailto:acatbagan@arrow.com" target="_blank">acatbagan@arrow.com</a>
                     </div>
                 </div>
                 <div class="row es_people-spacer">
                     <div class="col-md-3">
                         <b>Mike Lowe</b><br>
                         Sales Engineering, Supervisor<br>
-                        <span class="light-blue">mlowe@arrow.com</span>
+                        <a class="light-blue" href="mailto:mlowe@arrow.com" target="_blank">mlowe@arrow.com</a>
                     </div>
                     <div class="col-md-3">
                         <b>Seife Teklu</b><br>
                         ECS Solutions Architect<br>
-                        <span class="light-blue">steklu@arrow.com</span>
+                        <a class="light-blue" href="mailto:steklu@arrow.com" target="_blank">steklu@arrow.com</a>
                     </div>
                     <div class="col-md-3">
                         <b>Mike Engelhardt</b><br>
                         Technical Engineer, Pre-Sales<br>
-                        <span class="light-blue">mengelhardt@arrow.com</span>
+                        <a class="light-blue" href="mailto:mengelhardt@arrow.com" target="_blank">mengelhardt@arrow.com</a>
                     </div>
                     <div class="col-md-3">
                         <b>Marty Seutter</b><br>
                         Technical Engineer, Pre-Sales<br>
-                        <span class="light-blue">mseutter@arrow.com</span>
+                        <a class="light-blue" href="mailto:mseutter@arrow.com" target="_blank">mseutter@arrow.com</a>
                     </div>
                 </div>
             </div>

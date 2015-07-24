@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ArrowNA.arrow_academy {
+namespace ArrowNA.arrow_academy.data_protection {
     
     
     public partial class index {

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="ArrowNA.arrow_academy.index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="ArrowNA.arrow_academy.data_protection.index" %>
 
 <%@ Register Src="../../resources/header.ascx" TagName="header" TagPrefix="uc1" %>
 <%@ Register Src="../../resources/footer.ascx" TagName="footer" TagPrefix="uc2" %>
@@ -18,7 +18,7 @@
     <div class="site-content aa_body" style="margin-bottom: 90px; text-align: left;">
         <div class="container">
             <p>
-                <img src="/images/data-protection.png" class="pull-left" style="margin-right:10px;">
+                <img src="../images/data-protection.png" class="pull-left" style="margin-right:10px;">
                 <p>
                 <b>DATA PROTECTION SOLUTIONS TRAINING ROADMAP</b><br>
                 Is your data protection and availability strategy transforming to keep pace with the increasing market demands? Leverage our DPS education solutions and begin to position your business for success and deliver business value.
