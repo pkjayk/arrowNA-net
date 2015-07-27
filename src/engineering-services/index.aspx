@@ -83,7 +83,7 @@
             <div class="es_request-demo">
                 <div class="row">
                     <div class="col-md-6">
-                        <button class="es_demo-button" onclick="window.open('http://ww2.arrownacp.com/asp/emc.asp', '_blank');">
+                        <button class="es_demo-button" type="reset" onclick="window.open('http://ww2.arrownacp.com/asp/emc.asp', '_blank');">
                             Request a Demo</button>
                     </div>
                     <div class="col-md-6" style="text-align: center">

@@ -39,17 +39,17 @@
                 <div class="row">
                     <div class="col-md-4">
                         <a href="../arrow-academy/essentials/" class="aa_tab-link">
-                        <div class="aa_tab">
-                            <div class="aa_tab-header">
-                                Essentials
+                            <div class="aa_tab">
+                                <div class="aa_tab-header">
+                                    Essentials
+                                </div>
+                                <p>
+                                    Arrow Enablement Services</p>
+                                <p>
+                                    Arrow Solutions 101 Training</p>
+                                <p>
+                                    Technology Solution Value Proposition</p>
                             </div>
-                            <p>
-                                Arrow Enablement Services</p>
-                            <p>
-                                Arrow Solutions 101 Training</p>
-                            <p>
-                                Technology Solution Value Proposition</p>
-                        </div>
                         </a>
                     </div>
                     <div class="col-md-4">
@@ -80,45 +80,47 @@
             </div>
             <span class="light-blue" style="font-size: 14pt;"><b>Flexible Delivery Options</b></span>
             <div class="aa_accordion-container">
-        <div class="aa_accordion-slide">
-            <div class="aa_accordion-header">
-            On Demand
-            </div>
-            <div class="aa_accordion-content">
-            Access our featured solutions based training 24/7 through our ONDEMAND library of training delivered by experienced and certified trainers.
-            </div>
-        </div>
-        <div class="aa_accordion-slide">
-            <div class="aa_accordion-header" style="background-color:#6d6e70">
-            CLASSROOM: PARTNER ON-SITE
-            </div>
-            <div class="aa_accordion-content">
-            For a personal and in-depth experience, partners can leverage Arrow's resources for training in an interactive classroom session.
-            </div>
-        </div>
-        <div class="aa_accordion-slide">
-            <div class="aa_accordion-header" style="background-color:#939597">
-            ARROW ACADEMY WORKSHOPS
-            </div>
-            <div class="aa_accordion-content">
-            Work together with experts and peers to learn about key topics and technologies in an engaging environment.
-            </div>
-        </div>
-
+                <div class="aa_accordion-slide">
+                    <div class="aa_accordion-header">
+                        On Demand
+                    </div>
+                    <div class="aa_accordion-content">
+                        Access our featured solutions based training 24/7 through our ONDEMAND library of
+                        training delivered by experienced and certified trainers.
+                    </div>
+                </div>
+                <div class="aa_accordion-slide">
+                    <div class="aa_accordion-header" style="background-color: #6d6e70">
+                        CLASSROOM: PARTNER ON-SITE
+                    </div>
+                    <div class="aa_accordion-content">
+                        For a personal and in-depth experience, partners can leverage Arrow's resources
+                        for training in an interactive classroom session.
+                    </div>
+                </div>
+                <div class="aa_accordion-slide">
+                    <div class="aa_accordion-header" style="background-color: #939597">
+                        ARROW ACADEMY WORKSHOPS
+                    </div>
+                    <div class="aa_accordion-content">
+                        Work together with experts and peers to learn about key topics and technologies
+                        in an engaging environment.
+                    </div>
+                </div>
             </div>
             <div class="aa_icon-container">
                 <div class="row">
                     <div class="col-md-4">
-                    <a href="../assets/EMC Education.pdf" target="_blank">
-                        <div class="aa_icon">
-                            <div class="aa_icon-img">
-                                <img src="../images/aa-preview.png">
+                        <a href="../assets/EMC Education.pdf" target="_blank">
+                            <div class="aa_icon">
+                                <div class="aa_icon-img">
+                                    <img src="../images/aa-preview.png">
+                                </div>
+                                <p>
+                                    Arrow Academy
+                                </p>
                             </div>
-                            <p>
-                                Arrow Academy
-                            </p>
-                        </div>
-                    </a>
+                        </a>
                     </div>
                     <div class="col-md-4">
                         <div class="aa_icon">
@@ -142,7 +144,7 @@
                     </div>
                 </div>
             </div>
-            <h2 class="light-blue" style="margin-top:50px;">
+            <h2 class="light-blue" style="margin-top: 50px;">
                 <i>Arrow Essentials Training</i></h2>
             <div style="font-size: 12pt; font-weight: 300;">
                 <p>
@@ -152,69 +154,77 @@
                     and VCE business practice.
                 </p>
                 <p>
-                <a href="../arrow-academy/essentials">More Info <span class="glyphicon glyphicon-chevron-right"></span></a>
+                    <a href="../arrow-academy/essentials">More Info <span class="glyphicon glyphicon-chevron-right">
+                    </span></a>
                 </p>
             </div>
         </div>
-        <div class="es_features-container" style="margin-top:20px;">
+        <div class="es_features-container" style="margin-top: 20px;">
             <div class="container">
-            <h2 style="text-align:center;text-transform:uppercase;margin-bottom:20px">
-                <b>Arrow Academy for Solutions</b></h2>
-            <div style="font-size: 12pt; font-weight: 300;">
-                <div class="row aa_solutions-roadmap-icons" style="margin:0 auto;">
+                <h2 style="text-align: center; text-transform: uppercase; margin-bottom: 20px">
+                    <b>Arrow Academy for Solutions</b></h2>
+                <div style="font-size: 12pt; font-weight: 300;">
+                    <div class="row aa_solutions-roadmap-icons" style="margin: 0 auto;">
                         <a href="../arrow-academy/converged">
-                        <div class="col-md-2 col-md-offset-1">
-                        <img src="../images/Converged.png"><br>
-                        Converged Training Roadmap
-                        </div>
+                            <div class="col-md-2 col-md-offset-1">
+                                <img src="../images/Converged.png"><br>
+                                Converged Training Roadmap
+                            </div>
+                        </a><a href="../arrow-academy/cloud">
+                            <div class="col-md-2">
+                                <img src="../images/Cloud.png"><br>
+                                Cloud Training Roadmap
+                            </div>
+                        </a><a href="../arrow-academy/big-data">
+                            <div class="col-md-2">
+                                <img src="../images/big-data.png"><br>
+                                Big Data Training Roadmap
+                            </div>
                         </a>
-                        <a href="../arrow-academy/cloud">
                         <div class="col-md-2">
-                        <img src="../images/Cloud.png"><br>
-                        Cloud Training Roadmap
-                        </div>
-                        </a>
-                        <a href="../arrow-academy/big-data">
-                        <div class="col-md-2">
-                        <img src="../images/big-data.png"><br>
-                        Big Data Training Roadmap                      
-                        </div>
-                         </a>
-                        <div class="col-md-2">
-                        <img src="../images/data-protection.png"><br>
-                        DPS Training Roadmap
+                            <img src="../images/data-protection.png"><br>
+                            DPS Training Roadmap
                         </div>
                         <div class="col-md-2">
-                        <img src="../images/Services.png"><br>
-                        Services Training Roadmap
+                            <img src="../images/Services.png"><br>
+                            Services Training Roadmap
                         </div>
+                    </div>
+                    </p>
                 </div>
-                </p>
             </div>
-            </div>
-            </div>
-            <div class="container">
-            <h2 class="light-blue" style="margin-top:50px;">
+        </div>
+        <div class="container">
+            <h2 class="light-blue" style="margin-top: 50px;">
                 <i>Academy Masters</i></h2>
-            <div style="font-size: 12pt; font-weight: 300;padding-bottom:20px;">
+            <div style="font-size: 12pt; font-weight: 300; padding-bottom: 20px;">
                 <p>
-                    The Arrow Academy Masters Track for IT Transformation is a holistic pre-sales enablement program, purpose built, to empower data center technical sellers to understand and leverage the value of EMC’s portfolio. This Arrow enablement program is built on helping our partners establish and grow their business through successfully positioning, selling, implementing, and supporting EMC products and services. Our channel enablement program has helped many partners become more successful and effective by becoming more engaged and utilizing proven EMC technical program elements.
+                    The Arrow Academy Masters Track for IT Transformation is a holistic pre-sales enablement
+                    program, purpose built, to empower data center technical sellers to understand and
+                    leverage the value of EMC’s portfolio. This Arrow enablement program is built on
+                    helping our partners establish and grow their business through successfully positioning,
+                    selling, implementing, and supporting EMC products and services. Our channel enablement
+                    program has helped many partners become more successful and effective by becoming
+                    more engaged and utilizing proven EMC technical program elements.
                 </p>
-                <p style="margin-top:15px;">
-                <a href="#">More Info <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <p style="margin-top: 15px;">
+                    <a href="#">More Info <span class="glyphicon glyphicon-chevron-right"></span></a>
                 </p>
             </div>
-            <h2 class="light-blue" style="padding-top:50px;border-top:1px solid #bfbfbf">
+            <h2 class="light-blue" style="padding-top: 50px; border-top: 1px solid #bfbfbf">
                 <i>EMC Minors</i></h2>
             <div style="font-size: 12pt; font-weight: 300;">
                 <p>
-                EMC’s Minor program is designed to prepare the Systems Engineering resources to get the SOLUTION win. The EMC Minors program is a great way for Systems Engineers to build adjacent skill sets within the EMC portfolio and applications that often align to EMC solutions. The EMC Minors strategy is built upon four pillars:  Align – Build – Create – Prepare
-                <br><br>
-                <b>Ask your Area Sales Manager about open enrollment</b>             
+                    EMC’s Minor program is designed to prepare the Systems Engineering resources to
+                    get the SOLUTION win. The EMC Minors program is a great way for Systems Engineers
+                    to build adjacent skill sets within the EMC portfolio and applications that often
+                    align to EMC solutions. The EMC Minors strategy is built upon four pillars: Align
+                    – Build – Create – Prepare
+                    <br>
+                    <br>
+                    <b>Ask your Area Sales Manager about open enrollment</b>
                 </p>
-
             </div>
-
         </div>
     </div>
     <uc2:footer ID="footer1" runat="server" />

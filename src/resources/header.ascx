@@ -1,6 +1,7 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="header.ascx.cs" Inherits="ArrowNA.resources.header" %>
 <link rel="stylesheet" href='<%= Request.Url.GetLeftPart(UriPartial.Authority) + Request.ApplicationPath + "/style/build/bootstrap.min.css"%>' />
 <link rel="stylesheet" type="text/css" href='<%= Request.Url.GetLeftPart(UriPartial.Authority) + Request.ApplicationPath + "/style/build/main.min.css"%>' />
+<link rel="icon" href='<%= Request.Url.GetLeftPart(UriPartial.Authority) + Request.ApplicationPath + "/images/favicon.png"%>' />
 <div class="site-header">
     <div class="container-fluid">
         <div class="row">

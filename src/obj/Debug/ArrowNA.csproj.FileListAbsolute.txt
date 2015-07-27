@@ -2,7 +2,3 @@ C:\inetpub\wwwroot\ArrowNA\bin\ArrowNA.dll
 C:\inetpub\wwwroot\ArrowNA\bin\ArrowNA.pdb
 C:\inetpub\wwwroot\ArrowNA\obj\Debug\ArrowNA.dll
 C:\inetpub\wwwroot\ArrowNA\obj\Debug\ArrowNA.pdb
-C:\Users\admin\Documents\GitHub\arrowNA-net\src\bin\ArrowNA.dll
-C:\Users\admin\Documents\GitHub\arrowNA-net\src\bin\ArrowNA.pdb
-C:\Users\admin\Documents\GitHub\arrowNA-net\src\obj\Debug\ArrowNA.dll
-C:\Users\admin\Documents\GitHub\arrowNA-net\src\obj\Debug\ArrowNA.pdb

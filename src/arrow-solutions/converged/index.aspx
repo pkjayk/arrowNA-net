@@ -7,6 +7,20 @@
 <head id="Head1" runat="server">
     <title>Converged Solutions</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+        .es_demo-button
+        {
+            border: 2px solid #2a73af !important;
+            color: #2a73af !important;
+            width: 400px !important;
+            font-size: 13pt !important;
+        }
+        .es_demo-button:hover
+        {
+            background-color: #2a73af !important;
+            color: #fff !important;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -56,6 +70,12 @@
                 </div>
             </div>
             <hr style="color: #939597;">
+            <div class="es_request-demo" style="text-align: center;">
+                <div class="row">
+                    <button class="es_demo-button" type="reset" onclick="location.href='vspex-blue'">
+                        VSPEX BLUE Videos and Assets</button>
+                </div>
+            </div>
             <div class="container-fluid" style="margin-top: 40px;">
                 <h2 class="as_solution-title" style="width: 90%; margin: 0 auto; margin-bottom: 40px;">
                     Defined: VDI, Private Cloud & New Application Deployment</h2>

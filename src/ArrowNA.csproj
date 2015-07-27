@@ -58,6 +58,14 @@
     <Content Include="arrow-solutions\big-data\index.aspx" />
     <Content Include="arrow-solutions\cloud\index.aspx" />
     <Content Include="arrow-solutions\converged\index.aspx" />
+    <Content Include="arrow-solutions\converged\vspex-blue\articles\index.aspx" />
+    <Content Include="arrow-solutions\converged\vspex-blue\index.aspx" />
+    <Content Include="arrow-solutions\converged\vspex-blue\marketing-material\index.aspx" />
+    <Content Include="arrow-solutions\converged\vspex-blue\sales-tools\index.aspx" />
+    <Content Include="arrow-solutions\converged\vspex-blue\sales-videos\index.aspx" />
+    <Content Include="arrow-solutions\converged\vspex-blue\technical-resources\index.aspx" />
+    <Content Include="arrow-solutions\converged\vspex-blue\technical-videos\index.aspx" />
+    <Content Include="arrow-solutions\converged\vspex-blue\whitepapers\index.aspx" />
     <Content Include="arrow-solutions\data-protection\index.aspx" />
     <Content Include="arrow-solutions\index.aspx" />
     <Content Include="bin\ArrowNA.dll" />
@@ -71,14 +79,18 @@
     <Content Include="images\aa-preview.png" />
     <Content Include="images\aa-webinar.png" />
     <Content Include="images\arrow-logo.png" />
+    <Content Include="images\articles-n-whitepapers.PNG" />
+    <Content Include="images\articles.png" />
     <Content Include="images\Big Data.png" />
     <Content Include="images\big-data.png" />
     <Content Include="images\chevron-right-list.png" />
     <Content Include="images\Cloud.png" />
     <Content Include="images\col_logo.png" />
     <Content Include="images\Converged.png" />
+    <Content Include="images\cream_pixels.png" />
     <Content Include="images\Data Protection.png" />
     <Content Include="images\data-protection.png" />
+    <Content Include="images\distributortoVAR.PNG" />
     <Content Include="images\double-chevron.png" />
     <Content Include="images\ec-finance.png" />
     <Content Include="images\ec-marketing.png" />
@@ -99,12 +111,42 @@
     <Content Include="images\linked-in-icon.png" />
     <Content Include="images\logo-favicon.gif" />
     <Content Include="images\map.png" />
+    <Content Include="images\marketing-material.PNG" />
+    <Content Include="images\sales-tools.PNG" />
+    <Content Include="images\sales-videos.PNG" />
     <Content Include="images\Services.png" />
     <Content Include="images\six_weeks.png" />
     <Content Include="images\SKU1.png" />
     <Content Include="images\SKU2.png" />
+    <Content Include="images\sm_AREM351.jpg" />
+    <Content Include="images\sm_AREM352.jpg" />
+    <Content Include="images\sm_AREM353.jpg" />
+    <Content Include="images\sm_AREM354.jpg" />
+    <Content Include="images\sm_AREM355.jpg" />
+    <Content Include="images\sm_AREM357.jpg" />
+    <Content Include="images\sm_AREM358.jpg" />
+    <Content Include="images\sm_AREM359.JPG" />
+    <Content Include="images\sm_AREM360.jpg" />
+    <Content Include="images\sm_AREM361.jpg" />
+    <Content Include="images\sm_AREM362.jpg" />
+    <Content Include="images\sm_AREM363.jpg" />
+    <Content Include="images\sm_AREM375.jpg" />
+    <Content Include="images\sm_AREM376.jpg" />
+    <Content Include="images\sm_AREM377.jpg" />
+    <Content Include="images\sm_AREM465.jpg" />
+    <Content Include="images\sm_AREM498.jpg" />
+    <Content Include="images\sm_AREM499.jpg" />
+    <Content Include="images\sm_AREM500.jpg" />
+    <Content Include="images\sm_AREM501.jpg" />
+    <Content Include="images\sm_AREM503.jpg" />
+    <Content Include="images\sm_AREM509.jpg" />
+    <Content Include="images\technical-resources.PNG" />
+    <Content Include="images\technical-videos.PNG" />
     <Content Include="images\twitter-icon-blue.png" />
     <Content Include="images\twitter-icon-white.png" />
+    <Content Include="images\vARtoBuyer.png" />
+    <Content Include="images\videos.PNG" />
+    <Content Include="images\white-papers.png" />
     <Content Include="index.aspx" />
     <Content Include="js\accordion-slide.js" />
     <Content Include="js\build\jquery-1.11.3.min.js" />
@@ -190,6 +232,62 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="arrow-solutions\converged\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="arrow-solutions\converged\vspex-blue\articles\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="arrow-solutions\converged\vspex-blue\articles\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="arrow-solutions\converged\vspex-blue\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="arrow-solutions\converged\vspex-blue\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="arrow-solutions\converged\vspex-blue\marketing-material\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="arrow-solutions\converged\vspex-blue\marketing-material\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="arrow-solutions\converged\vspex-blue\sales-tools\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="arrow-solutions\converged\vspex-blue\sales-tools\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="arrow-solutions\converged\vspex-blue\sales-videos\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="arrow-solutions\converged\vspex-blue\sales-videos\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="arrow-solutions\converged\vspex-blue\technical-resources\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="arrow-solutions\converged\vspex-blue\technical-resources\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="arrow-solutions\converged\vspex-blue\technical-videos\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="arrow-solutions\converged\vspex-blue\technical-videos\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="arrow-solutions\converged\vspex-blue\whitepapers\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="arrow-solutions\converged\vspex-blue\whitepapers\index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="arrow-solutions\data-protection\index.aspx.cs">
@@ -292,6 +390,7 @@
     <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="assets\6544_AR_MultiV_ECS_ResidencyServices_Brochure_85x11_M_FINAL_lr_clean.pdf" />
     <None Include="assets\A360_Brochure.pdf" />
     <None Include="assets\Arrow Capital Solutions.pdf" />
     <None Include="assets\Arrow EMC Video Surveillance.pdf" />
@@ -301,6 +400,11 @@
     <None Include="assets\Arrow VSPEX Customer Experience.pdf" />
     <None Include="assets\Arrow-ECS-VSPEX-Blue.pdf" />
     <None Include="assets\Arrow-EMC-Solution-Labs.pdf" />
+    <None Include="assets\Arrow_ECS_NA_B2B_Logistics-Datasheet[1][1].pdf" />
+    <None Include="assets\ARR_ECS_Global_logistics_Intl-shipping-v8.pdf" />
+    <None Include="assets\ARR_ECS_logistics_transportation_85x11-v1[1][1].pdf" />
+    <None Include="assets\ARW-ECS_IntegrationService_v4.pdf" />
+    <None Include="assets\ECS_ResidencyServices_Brochure_85x11_M_FINAL_lr_clean.pdf" />
     <None Include="assets\EMC Education.pdf" />
     <None Include="assets\EMC-ViPR Asset.pdf" />
     <None Include="assets\Flex Pricing Solutions.pdf" />

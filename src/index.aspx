@@ -7,7 +7,6 @@
 <head id="Head1" runat="server">
     <title>Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -17,7 +16,7 @@
     <div class="site-content" style="margin-bottom: 120px;">
         <div class="container-fluid">
             <div class="row" style="margin-top: 75px">
-                <button class="emc-showcase-button" style="margin: 0 auto;" onclick="window.open('http://arrowenablement.com/EMC/public/us/index.html', '_blank');">
+                <button class="emc-showcase-button" style="margin: 0 auto;" type="reset" onclick="window.open('http://arrowenablement.com/EMC/public/us/index.html', '_blank');">
                     EMC Showcase &mdash; Web Syndication Feature
                     <img src="images/double-chevron.png"></button>
             </div>
@@ -27,7 +26,7 @@
                         <span>Event Calendar</span>
                     </div>
                     <div class="event-calendar">
-                        <iframe src="https://www.google.com/calendar/embed?src=na%40arrowenablement.com&ctz=Asia/Calcutta"
+                        <iframe src="https://www.google.com/calendar/embed?bgcolor=%2333ccff&amp;src=na%40arrowenablement.com&ctz=America%2FChicago"
                             style="border: 0" width="100%" height="400px" frameborder="0" scrolling="no">
                         </iframe>
                     </div>
@@ -41,7 +40,7 @@
     </div>
     <uc2:footer ID="footer1" runat="server" />
     <script>        !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } } (document, "script", "twitter-wjs");
-</script>
+    </script>
     </form>
 </body>
 </html>

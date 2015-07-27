@@ -198,7 +198,8 @@
                 <div class="ec_tool-table-row">
                     <div class="row">
                         <div class="col-sm-6 ec_tool-title">
-                            Electronic Data Interchange (EDI)
+                            <a href="../assets/Arrow_ECS_NA_B2B_Logistics-Datasheet[1][1].pdf" target="_blank">Electronic
+                                Data Interchange (EDI)</a>
                         </div>
                         <div class="col-sm-6">
                             Enables the capability to electronically send and receive data, reducing manual
@@ -221,7 +222,8 @@
                 <div class="ec_tool-table-row">
                     <div class="row">
                         <div class="col-sm-6 ec_tool-title">
-                            <a href="http://ecs.arrow.com/logistics-services/" target="_blank">Logistics Management</a>
+                            <a href="../assets/ARR_ECS_Global_logistics_Intl-shipping-v8.pdf" target="_blank">Logistics
+                                Management</a>
                         </div>
                         <div class="col-sm-6">
                             From order placement to delivery, our team of experts can work with you to outline
@@ -302,7 +304,7 @@
                 <div class="ec_tool-table-row ec_alt-color">
                     <div class="row">
                         <div class="col-sm-6 ec_tool-title">
-                            <a href="../assets/A360_Brochure.pdf" target="_blank">Opportunity Development</a> 
+                            <a href="../assets/A360_Brochure.pdf" target="_blank">Opportunity Development</a>
                         </div>
                         <div class="col-sm-6">
                             Arrow 360 is an internal team focused on telemarketing, lead qualification and opportunity
@@ -332,7 +334,7 @@
                     <div class="row">
                         <div class="col-sm-6 ec_tool-title">
                             <a href="http://ecs.arrow.com/insight_bi/" target="_blank">Arrow Insight</a><br>
-                            <small><i><a href="../assets/Arrow Insight.pdf" target="_blank">(Additional Info)</a></i></small>                          
+                            <small><i><a href="../assets/Arrow Insight.pdf" target="_blank">(Additional Info)</a></i></small>
                         </div>
                         <div class="col-sm-6">
                             Develop custom campaigns by leveraging our business intelligence tool to identify
@@ -345,7 +347,8 @@
                         <div class="col-sm-6 ec_tool-title">
                             <a href="http://ecs.arrow.com/marketing-2/" target="_blank">Campaign Planning and Management
                                 Services</a><br>
-                            <small><i><a href="../assets/Arrow Tech Refresh Data Sheet.pdf" target="_blank">(Arrow Tech Refresh)</a></i></small>
+                            <small><i><a href="../assets/Arrow Tech Refresh Data Sheet.pdf" target="_blank">(Arrow
+                                Tech Refresh)</a></i></small>
                         </div>
                         <div class="col-sm-6">
                             Dedicated field resources to help you plan according to your business goals and
@@ -374,7 +377,8 @@
                     <div class="row">
                         <div class="col-sm-6 ec_tool-title">
                             Finance Options<br>
-                            <small><i><a href="../assets/Arrow Capital Solutions.pdf" target="_blank">(Arrow Capital Solutions)</a></i></small>
+                            <small><i><a href="../assets/Arrow Capital Solutions.pdf" target="_blank">(Arrow Capital
+                                Solutions)</a></i></small>
                         </div>
                         <div class="col-sm-6">
                             Whether is leasing, escrow, extended terms or flooring, Arrow's Finance team can
