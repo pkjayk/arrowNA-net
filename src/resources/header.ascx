@@ -1,6 +1,7 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="header.ascx.cs" Inherits="ArrowNA.resources.header" %>
 <link rel="stylesheet" href='<%= Request.Url.GetLeftPart(UriPartial.Authority) + Request.ApplicationPath + "/style/build/bootstrap.min.css"%>' />
 <link rel="stylesheet" type="text/css" href='<%= Request.Url.GetLeftPart(UriPartial.Authority) + Request.ApplicationPath + "/style/build/main.min.css"%>' />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link rel="icon" href='<%= Request.Url.GetLeftPart(UriPartial.Authority) + Request.ApplicationPath + "/images/favicon.png"%>' />
 <div class="site-header">
     <div class="container-fluid">
@@ -43,8 +44,7 @@
                 <asp:Image ID="Image1" runat="server" ImageUrl="~/images/emc-biz-partner.png" />
             </div>
             <div class="col-md-10 emc-biz-copy">
-                <div class="spacer visible-md visible-lg">
-                </div>
+
                 EMC enables businesses and service providers to transform their operations and deliver
                 information technology as a service (ITaaS). EMC works with organizations around
                 the world, in every industry, in the public and private sectors, and of every size,

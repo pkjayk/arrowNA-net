@@ -16,18 +16,18 @@
     <div class="site-content" style="margin-bottom: 120px;">
         <div class="container-fluid">
             <div class="row" style="margin-top: 75px">
-                <button class="emc-showcase-button" style="margin: 0 auto;" type="reset" onclick="window.open('http://arrowenablement.com/EMC/public/us/index.html', '_blank');">
+                <a href="http://arrowenablement.com/EMC/public/us/index.html" target="_blank" class="button-link"><button class="emc-showcase-button" style="margin: 0 auto;">
                     EMC Showcase &mdash; Web Syndication Feature
-                    <img src="images/double-chevron.png"></button>
+                    <img src="images/double-chevron.png"></button></a>
             </div>
             <div class="row" style="margin-top: 100px;">
                 <div class="col-md-6" style="margin-bottom: 15px">
                     <div class="event-calendar-header">
                         <span>Event Calendar</span>
                     </div>
-                    <div class="event-calendar">
+                    <div class="event-calendar" style="background-color:inherit">
                         <iframe src="https://www.google.com/calendar/embed?bgcolor=%2333ccff&amp;src=na%40arrowenablement.com&ctz=America%2FChicago"
-                            style="border: 0" width="100%" height="400px" frameborder="0" scrolling="no">
+                            style="border: 0;margin:0 auto;" width="90%" height="300px" frameborder="0" scrolling="no">
                         </iframe>
                     </div>
                 </div>

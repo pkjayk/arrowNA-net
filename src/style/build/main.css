@@ -10,10 +10,14 @@ body
 {
     background-color: #fff;
     width: 100%;
-    padding: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 16pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14pt;
+}
+
+.header-left img {
+    width:100px;
+    margin-top:7px;
 }
 
 .header-right
@@ -101,7 +105,6 @@ nav.main-menu
     background-color: #58585b;
     width: 100%;
     padding: 15px;
-    min-height: 200px;
 }
 
 .emc-biz-img
@@ -110,11 +113,17 @@ nav.main-menu
     text-align: center;
 }
 
+.emc-biz-img img {
+    width:100px;
+}
+
 .emc-biz-copy
 {
     color: #fff;
-    font-size: 13pt;
+    font-size: 12pt;
     font-weight: 300;
+    padding-top:15px;
+    padding-bottom:15px;
 }
 
 .emc-showcase-button
@@ -148,14 +157,18 @@ nav.main-menu
 
 .page-title-block
 {
-    padding: 15px;
+    padding: 10px;
     padding-left: 30px;
     color: #fff;
-    font-size: 26pt;
+    font-size: 18pt !important;
     font-weight: 300;
     text-transform: uppercase;
     min-height: 15px;
     background-color: #27a9e1;
+}
+
+.page-title-block span {
+    font-size:16pt !important;
 }
 
 .page-title-block a
@@ -259,7 +272,7 @@ nav.main-menu
     padding-top: 25px;
     padding-bottom: 25px;
     text-transform: uppercase;
-    font-size: 28pt;
+    font-size: 16pt;
 }
 
 .social-icons
@@ -269,9 +282,21 @@ nav.main-menu
     padding: 0;
 }
 
+.social-icons a:hover {
+    text-decoration:none;
+}
+
 .social-icons img
 {
-    height: 45px;
+    height: 20px;
+}
+
+.social-icons i {
+    transition:all .3s ease-in;
+}
+
+.social-icons i:hover {
+    color:rgba(0,0,0,0.6) !important;
 }
 
 .menu-toggle
@@ -341,11 +366,11 @@ nav.main-menu
 {
     background-color: #404041;
     color: #fff;
-    font-size: 16pt;
+    font-size: 13pt;
     text-align: center;
     font-weight: 300;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .site-content
